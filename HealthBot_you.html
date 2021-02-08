@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+
+<!-- without page references the bookmarks wont properly work because the bookmarks will assume that it is on the current page.  -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="health.bot.logo.3.png" alt="HealthBot Logo" height="75px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+aria-controle="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav" id="nav">
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="Intro.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Introduction to HealthBot
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="Intro.html#What.is.HealthBot">What Is HealthBot?</a>
+            <a class="dropdown-item" href="Intro.html#What.does.do">What is healthbot do?</a>
+            <a class="dropdown-item" href="Intro.html#What.is.battery">What is your daily “battery percentage”?</a>
+            <a class="dropdown-item" href="Intro.html#What.questionnaire">What is the questionnaire like?</a>
+            <a class="dropdown-item" href="Intro.html#How.Does.HealthBot.Help">How does HelathBot Assist me?</a>
+            <a class="dropdown-item" href="Intro.html#Why.want.one">What is healthbot do and why would I want one?</a>
+    </div>
+</li>
+</div>
+</ul>
+
+<!-- without page references the bookmarks wont properly work because the bookmarks will assume that it is on the current page.  -->
+<!-- <made them into different lists to remove bullet point. -->
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav" id="nav">
+    <!-- putting active in the nav-item class makes it blue and will not properly shrink accordingly -->
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="HealthBot_you.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                HealthBot and You
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="HealthBot_you.html#How.many">How many HealthBots are there?</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#interface">Opening your App</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#After.questionnaire">After Your questionnaire!</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#To.Start">Starting Your Day with HealthBot</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#Check.in">Scheduling Check ins</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#Medication.remindert">Medication Reminders</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#Extras">Extras with HealthBot</a>
+                    <a class="dropdown-item" href="HealthBot_you.html#Reminder.examples">Reminders Examples</a>
+                    
+            </div>
+            </li>
+           
+        </ul>
+    
+    </nav>
+    </div>
+<!-- to show off allllll robos use carousel, with the power to move it along  -->
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- 23 HealthBots to show off. -->
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="17"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="18"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="19"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="20"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="21"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="22"></li>
+    </ol>
+    <div class="carousel-inner">
+        <style>
+            .carousel-item{
+                background-color:rgba(83, 81, 79, 0.3);
+                object-position: center;
+                background-position-x: center;
+            }
+            .carousel-item img{
+            width: auto;
+            margin: auto; 
+            display: block;
+            }
+        </style>
+
+      <div class="carousel-item active">
+          <!-- class w-25 = 25% of the OG IMAGE -->
+        <img src="robos/alfro.robo.png" class="d-block w-50" alt="Alfro HealthBot" >
+      </div>
+      <div class="carousel-item">
+        <img src="robos/ballet.robo.png" class="d-block w-50" alt="Ballet HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/best.pink.boi.png" class="d-block w-50" alt="Large Pink HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/blu.electro.robo.png" class="d-block w-50" alt="Blue Electro HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Circus.Act.png" class="d-block w-50" alt="Circus Act HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/cotton.Kandi.png" class="d-block w-50" alt="Cotton Kandi HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/gray.floaty.dancer.png" class="d-block w-50" alt="Gray Dancer HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/green.BOI.png" class="d-block w-50" alt="Green One Wheeled HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/harper.robo.png" class="d-block w-50" alt="Harper HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/lamp.robo.png" class="d-block w-50" alt="Lamp HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/pink.chaos.png" class="d-block w-50" alt="Pink Spider HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/purple.queen.png" class="d-block w-50" alt="Purple Queen HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/red.lad.png" class="d-block w-50" alt="Red Lad HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Ring.Ling.png" class="d-block w-50" alt="Ring Ling HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Rolly.Pollyboi.png" class="d-block w-50" alt="Rolly Polly HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/satellite.robo.png" class="d-block w-50" alt="Satellite HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Sir.Robo.png" class="d-block w-50" alt="Sir Robo HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Springy.limeboi.png" class="d-block w-50" alt="Springy Lime HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Teal.boi.png" class="d-block w-50" alt="Teal HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/time.keeper.robo.png" class="d-block w-50" alt="Time Keeper HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/u.f.OH.png" class="d-block w-50" alt="UFO HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/wheely.kind.png" class="d-block w-50" alt="Wheely Kind HealthBot">
+      </div>
+      <div class="carousel-item">
+        <img src="robos/Yellow.Try.Robo.png" class="d-block w-50" alt="Large Yellow HealthBot">
+      </div>
+    </div>
+<!-- just for the bottons  -->
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg">
+            <img src="robos/team 1.png" alt="Team 1" height="300px">
+            <img src="robos/team 2.png" alt="Team 2" height="300px">
+        <h2 id="How.many">How many HealthBots are there?</h2> 
+        <p>HealthBot is a Wellness Assistant designed to cater to the user’s needs, it also has many models, 23 so far. With that many 
+            options the HealthBot Team is sure that you'll find a wonderful match! You can choose just one HealthBot or choose a small 
+            team of HealthBots to help cater with different types of needs. One HealthBot can remind you of self care while the other 
+            can remind you of time related activities that need to be done. Below is an example of a couple teams of 
+        </p>
+        </div>
+    </div>
+
+    <!-- You can put icons/imgs in tables!!! -->
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Team</th>
+            <th scope="col">Medication<br>
+                 Reminders</th>
+            <th scope="col">Self-Care<br>
+                 Reminders</th>
+            <th scope="col">User-Set<br>
+                 Reminders</th>
+            <th scope="col">External-Environment<br>
+                 Reminders</th>
+            <th scope="col">Timed-Related<br>
+                 Reminders</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="robos/wheely.kind.icon.png" alt="wheely Kind HealthBot" height="90px"></td>
+            <td><img src="robos/purple.queen.icon.png" alt="Purple Queen HealthBot" height="90px"></td>
+            <td><img src="robos/best.pink.boi.icon.png" alt="Large Pink HealthBot" height="90px"></td>
+            <td><img src="robos/green.BOI.icon.png" alt="Green one Wheeled HealthBot" height="90px"></td>
+            <td><img src="robos/time.keeper.robo.icon.png" alt="Time Keeper HealthBot" height="90px"></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><img src="robos/pink.chaos.icon.png" alt="pink chaos HealthBot" height="90px"></td>
+            <td><img src="robos/Circus.Act.icon.png" alt="Circus Act HealthBot" height="90px"></td>
+            <td><img src="robos/Rolly.Pollyboi.icon.png" alt="Rolly Polly HealthBot" height="90px"></td>
+            <td><img src="robos/Springy.limeboi.icon.png" alt="Springy Lime HealthBot" height="90px"></td>
+            <td><img src="robos/Ring.Ling.icon.png" alt="Ringling HealthBot" height="90px"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><img src="robos/ballet.robo.icon.png" alt="ballet HealthBot" height="90px"></td>
+            <td><img src="robos/gray.floaty.dancer.icon.png" alt="Gray Dancer HealthBot" height="90px"></td>
+            <td><img src="robos/lamp.robo.icon.png" alt="Lamp HealthBot" height="90px"></td>
+            <td><img src="robos/Teal.boi.icon.png" alt="Large Pink HealthBot" height="90px"></td>
+            <td><img src="robos/cotton.Kandi.icon.png" alt="Cotton Kandi HealthBot" height="90px"></td>
+          </tr>
+        </tbody>
+      </table>
+
+<div class="container">
+    <div class="col-md-6">
+        <img src="page.2/loading.results.png" alt="Lamp HealthBot in interface" height="300px">
+        <h2>After you complete your quiz </h2> 
+    <p>After a quiz is completed it may take some time to properly load all the information needed to accurately </p> 
+    </div>
+        <div class="col-md-6">
+            <img src="page.2/lamp.robo.interface.png" alt="Lamp HealthBot in interface" height="300px">
+            <h2 id="interface">Opening your app!</h2> 
+        <p>When the application is opened up your HealthBot will be waiting to assist you!</p> 
+        </div>
+    </div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="page.2/red.lad.stressers.png" alt="Red lad HealthBot Stressors " height="300px">
+        <h2 id="After.questionnaire">After Your questionnaire!</h2> 
+        <p>A HealthBot will create a list of the stressors in your life based on your answers.  
+        </p>
+        </div>
+<!-- so it looks better on a smaller screen -->
+        <div class="col-md">
+            <img src="page.2/cotton.Kandi.destressers.png" alt="Cicus act logging" height="300px">
+            <h2>Logging your start of the day!</h2> 
+        <p>As well as Youll be given a list of de-stressors as well! These will be great to have a list to help calm 
+            down in moments of panic. 
+        </p> 
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg">
+            <img src="page.2/circus.act.ask.batt.png" alt="Circus act asking " height="300px">
+        <h2 id="To.Start">Starting your day with HealthBot?</h2> 
+        <p>To start your day with HealthBot you'll normally awake to an alert like this, this will then be logged within your daily logs.  
+        </p>
+        </div>
+
+        <div class="col-lg">
+            <img src="page.2/circus.act.add.log.png" alt="Cicus act logging" height="300px">
+            <h2>Logging your start of the day!</h2> 
+        <p>After your battery level has been confirmed youll see your HealthBot alert you that it has been logged accordingly. </p> 
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="page.2/ring.ling.batt.sched.ask.png" alt="Ring Ling asking " height="300px">
+        <h2 id="Check.In">Scheduling Check ins</h2> 
+        <p>Certain times of the day can trigger certain events and those events can drain our battery levels or raise them.   
+        </p>
+        </div>
+
+        <div class="col-lg-6">
+            <img src="page.2/ring.ling.curr.batt.ask.png" alt="Ringling current battery quick replies" height="300px">
+            <h2>Quick Replies to Log</h2> 
+        <p>After your battery level has been confirmed youll see your HealthBot give you quick replies on what changed your battery levels.</p> 
+        </div>
+    </div>
+        
+
+
+            <div class="container">
+                <div class="row">
+        <div class="col-md">
+                <img src="page.2/ring.ling.ask.expand.png" alt="Ringling asking if you want to explain further" height="300px">
+            <h2>Further explanation</h2> 
+            <p>Youll then be prompted to explain further if you want to record ot type out your explanation  
+            </p>
+            </div>
+            <div class="col-md">
+                <img src="page.2/ring.ling.ask.rec.type.png" alt="Ringling giving an option to rec or type out " height="300px">
+                <h2>How you want to update your Log!</h2> 
+            <p>After confirming that you do indeed want to add an explanation to your logs you'll see the options on weather to 
+                type your explanation or record a voice clip.
+            </p> 
+            </div>
+            <div class="col-md">
+                <img src="page.2/ring.ling.update.png" alt="Ringling updating your log " height="300px">
+                <h2>Your log has been updated</h2> 
+            <p>Then your log will be updated accomplishingly
+            </p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <img src="page.2/wheely.kind.med.ask.png" alt="Wheely Kind reminding meds" height="300px">
+            <h2 id="Medication.reminders">Medication Reminders</h2> 
+            <p>With HealthBot you can also set Medication reminders! You can give the medication names, or what they are for 
+                ,can set as many reminders as needed.
+            </p>
+            </div>
+    
+            <div class="col-lg">
+                <img src="page.2/wheely.king.med.log.png" alt="Wheely Kind logging" height="300px">
+                <h2>Logging Medication</h2> 
+            <p>After you have taken your medications you can then if you are ever unsure if you have taken them or not look 
+                back on your daily logs! 
+            </p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="page.2/u.f.OH.breath.in.png" alt="Breathing in with UFO" height="300px">
+            <h2 id="Extras">Breathing Exercise</h2> 
+            <p>With HealthBot you can do some breathing exercises breathing in with the light retracting back into the UFO
+            </p>
+            </div>
+    
+            <div class="col-md-4">
+                <img src="page.2/u.f.OH.breath.out.png" alt="Breathing out with UFO" height="300px">
+                <h2>Breathing Exercise</h2> 
+            <p>Then breathing out with the glow of the UFO! 
+            </p> 
+            </div>
+
+            <div class="col-md-4">
+                <img src="page.2/ballet.rewards.png" alt="Ballet HealthBot Rewards page" height="300px">
+                <h2>Rewards!</h2> 
+            <p>After reaching certain goals you can gain cute rewards to accessorize your HealthBots! These can be taking your meds everyday 
+                or brushing your teeth everyday. What ever goals you have and you follow through with youll be rewarded with some simple rewards.  
+            </p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="page.2/best.boi.hydration.png" alt="Being reminded to drink water" height="300px">
+            <h2 id="Reminder.examples">Reminder Examples</h2> 
+            <p>You can have a hydration reminder
+            </p>
+            </div>
+    
+            <div class="coll-lg-4">
+                <img src="page.2/purple.queen.self.care.png" alt="Being reminded to perform self care" height="300px">
+                <h2>Reminder Example 2</h2> 
+            <p>A self care reminder will help you remember<br>
+                 when to take a break.
+            </p> 
+            </div>
+
+            <div class="col-lg-4">
+                <img src="page.2/SIR.robo.eat.reminder.png" alt="Being reminded to eat" height="300px">
+                <h2>Reminder Example 3</h2> 
+            <p>Being reminded that you want to eat healthy is another great reminder. 
+            </p> 
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="page.2/green.BOI.weather.update.png" alt="Being reminded of the weather" height="300px">
+            <h2>Reminder Example 4</h2> 
+            <p>You can have a weather reminder to dress accordingly with the changing seasons
+            </p>
+            </div>
+    
+            <div class="col-lg-4">
+                <img src="page.2/gray.dancer.breather.png" alt="Being reminded to take a breather" height="300px">
+                <h2>Reminder Example 5</h2> 
+            <p>A breathing exercise reminder may be prompted if your stress levels are very high 
+            </p> 
+            </div>
+
+            <div class="col-lg-4">
+                <img src="page.2/blu.electro.music.png" alt="Being reminded to pursue your hobbies" height="300px">
+                <h2>Reminder Example 6</h2> 
+            <p>Being reminded of a hobby you want to do can also be a reminder.  
+            </p> 
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDES ONLY -->
+    <div id="carouselIndicators" class="carousel slide" data-interval="4000" data-ride="carousel">
+        <!-- 23 HealthBots to show off. -->
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="2"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="3"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="4"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="5"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="6"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="7"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="8"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="9"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="10"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="11"></li>
+          <li data-bs-target="#carouselIndicators" data-bs-slide-to="12"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <!-- class w-25 = 25% of the OG IMAGE -->
+            <img src="extras/IMG_0001.jpg" class="d-block w-50" alt="Image 1 HealthBot Sketch" >
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0003.jpg" class="d-block w-50" alt="HealthBot Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0004.jpg" class="d-block w-50" alt="HealthBot Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0005.jpg" class="d-block w-50" alt="HealthBot Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0006.jpg" class="d-block w-50" alt="HealthBot Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0007.jpg" class="d-block w-50" alt="HealthBot Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0008.jpg" class="d-block w-50" alt="HealthBot Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0009.jpg" class="d-block w-50" alt="HealthBot Early Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0010.jpg" class="d-block w-50" alt="HealthBot Early Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0011.jpg" class="d-block w-50" alt="HealthBot Early Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0012.jpg" class="d-block w-50" alt="HealthBot Early Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0013.jpg" class="d-block w-50" alt="HealthBot Early Sketch">
+          </div>
+          <div class="carousel-item">
+            <img src="extras/IMG_0014.jpg" class="d-block w-50" alt="HealthBot Early Sketch">
+          </div>
+       </div>
+    </div>
+
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <img src="robos/Red.Power.Couple.png" alt="Red HealthBots Couple" height="300px">
+            <h2 id="HealthBot.life">How did Healthbot come to life? </h2> 
+            <p>It came to me when I wanted to help my friends with their daily struggles, I started to over extend more than what I could comfortably handle. 
+                However I still wanted to help and felt awful when I felt like I was not paying attention to my friends.  In my own life I often forget my 
+                basic needs such as brushing my hair, forgetting to eat etc. It's not something a lot of people like to admit but I know I am not the only one
+                who forgets. It's not a nice feeling to forget or feel too exhausted to think about taking care of yourself. 
+                I also have had bad days, but didn't want to over share to others, and sometimes I just want my thoughts recorded without having to ask anyone 
+                else for assistance. Having a quick alert system in place can help lessen the feel of your problems, check in after certain times in the day 
+                ,having a daily log that can help you and your doctor know if your new medication is working, or how you feel from day to day having a log 
+                may help relieve some people from the pressure of day to day life. I also thought it would be a nice tool to have a questionnaire that 
+                could help you understand patterns, stressors, destressors, things that may have been forgotten in the shuffle of day to day life. <br><br>
+
+                I did not only think of myself, but also thought of my friends with their daily troubles, feeling too busy to take a moment 
+                to actually check in on your well being. It can become too much. So Health bot was my solution to be there for my friends 
+                in need without having them feel like they are over sharing or being a burden. It can just get it out to an unbiased 3rd party that can
+                record it in a daily log which could be beneficial if you are going to therapy or trying a new medication. <br><br>
+
+                As I thought of what it could do, I wanted to improve the medical assistant programs ability to assist the user in daily life.
+                Finding out their de-stressors, giving them an optional to do list depending on their day, and if they have the “battery level” 
+                to do an object within that optional to-do list or if they wish to be reminded of it the next day so it isn't forgotten. <br><br>
+
+                HealthBot is an app that I have been trying to create on and off for a year and decided to make this weeks project a mock up 
+                for my to be app to help with others mental health as best as it can. It cannot be a replacement for therapy or medication but
+                I am hoping that it will help ease the burden of what is weighing someone down. Help them when they are stressed by giving them 
+                the pre-provided destressors given by the user in the questionnaire. It can also record days, either by text or recording. It could
+                also be as simple as answering a few pop up notifications for the application to look back on and see how your week was. Of course 
+                the more information that can be given the better I hope the healthbot can assist many people once I actually complete it.
+                </p>
+            </div>
+        </div>
+</div>
+
+<form>
+    <h3>If you like to stay up to date on this application please put your information in.</h3>
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last name">
+      </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">If you want to keep in contact with our updates!</div>
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Yes agree to the Terms and Conditions</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+</body>
+</html>
