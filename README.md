@@ -13,3 +13,12 @@ To-do for this app
 
 
 2.) make index.html something more, maybe add a 3d model version of some of the robos as I go through Blender :) 
+
+
+
+
+
+3.) See if some voice lines can be done, maybe little animations instead of the mock up to show it off more as a full idea
+
+
+:) 
