@@ -23,4 +23,8 @@ To-do for this app
 3.) See if some voice lines can be done, maybe little animations instead of the mock up to show it off more as a full idea
 
 
+
+4.) Once gitpages is corrected please use a link so people can see the project via a portfoloio
+
+
 :) 
