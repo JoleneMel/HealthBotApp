@@ -8,7 +8,7 @@ To-do for this app
 
 
 
-1.) connect bootstrap properly to work with git pages 
+1.) connect bootstrap properly to work with git pages (DONE)
 
 
 
