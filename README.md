@@ -1,5 +1,5 @@
 # HealthBotApp
-PLEASE NOT THAT THE GITPAGES IS A WORK IN PROGRESS! Fully functional verison coming soon. 
+PLEASE NOT THAT THE GITPAGES IS A WORK IN PROGRESS!  
 
 This is my Health Bot App mock up, this was a ton of fun! I designed many different designs within a week. 
 
